@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    width: 100%;
+    height: 5rem;
+    background-color: #0e1d55;
+    color: #AAAAAA;
+    letter-spacing: 0.21em;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+li {
+    margin-left: 2rem;
+    list-style: none;
+
+}
+
+.logo {
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 2rem;
+    color: white
+}
+
+.user {
+    margin-right: 2rem;
+    font-size: 20px;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.registration-mobile {
+    display: none;
+}
+
+.cart-mobile {
+    display: none;
+}
+
+.home:hover,
+.about:hover,
+.contact:hover,
+.shop:hover,
+.cart:hover,
+.registration:hover {
+    color: #cca471;
+}
+
+@media screen and (max-width:768px) {
+
+    .pages,
+    .user {
+        display: none;
+    }
+
+    .pages-mobile {
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #0e1d55;
+        border-top: 0.5px solid white;
+        left: 0;
+        top: 75px;
+        width: 100%;
+        transition: 1s ease 2s;
+    }
+
+
+    .home:hover,
+    .about:hover,
+    .contact:hover,
+    .shop:hover,
+    .cart-mobile:hover,
+    .registration-mobile:hover {
+        color: #cca471;
+    }
+
+    .home,
+    .shop,
+    .about,
+    .contact,
+    .registration-mobile,
+    .cart-mobile {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        transition: all 0.5 ease;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        top: 15px;
+        right: 25px;
+        color: white;
+        background-color: #0e1d55;
+        border: none;
+    }
+
+    .registration-mobile,
+    .cart-mobile {
+        display: inline;
+    }
+}

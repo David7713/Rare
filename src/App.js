@@ -1,8 +1,28 @@
 import React from 'react'
+import './App.css' 
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NavigationBar from './components/NavigationBar/NavigationBar'
+import Home from './pages/Home/Home'
+import Shop from './pages/Shop/Shop'
+import About from './pages/About/About'
+import Contact from './pages/Contact/Contact'
+import Registration from './pages/Registration/Registration'
+import Cart from './pages/Cart/Cart'
 
 const App = () => {
   return (
-    <div>App</div>
+    <Router>
+      <NavigationBar></NavigationBar>
+   
+      <Routes>
+        <Route path='/' element={<Home />} exact />
+        <Route path='/shop' element={<Shop />} exact />
+        <Route path='/about' element={<About />} exact />
+        <Route path='/contact' element={<Contact />} exact />
+        <Route path='/registration' element={<Registration />} exact />
+        <Route path='/cart' element={<Cart />} exact />
+      </Routes>
+    </Router>
   )
 }
 
