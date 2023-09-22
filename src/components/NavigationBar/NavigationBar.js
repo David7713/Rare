@@ -3,8 +3,9 @@ import './NavigationBar.css'
 import {Link} from 'react-router-dom';
 import {FaUser} from 'react-icons/fa'
 import {RiShoppingBasketFill} from 'react-icons/ri'
-import {BiSolidTimeFive} from 'react-icons/bi'
 import {FaTimes} from 'react-icons/fa'
+import {BiSolidTimeFive} from 'react-icons/bi'
+import {BsWatch} from 'react-icons/bs'
 import {SlMenu} from 'react-icons/sl'
 const NavigationBar = () => {
 
@@ -15,7 +16,7 @@ const NavigationBar = () => {
   <div className='container'>
   <Link to={"/"} >
   <div className='logo'>
-      <p className='logoIcon'><BiSolidTimeFive ></BiSolidTimeFive> <span className='brandName'>RARE</span></p>
+      <p className='logoIcon'><BsWatch ></BsWatch> <span className='brandName'>RARE</span></p>
 
      </div>
 </Link>
@@ -27,23 +28,23 @@ const NavigationBar = () => {
         <ul    className={isMobile ? "pages-mobile" :'pages'}
     onClick={()=>setIsMobile(false)}  >
 <Link to={"/"} className='home'>
-  <li>Home</li>
+  <li>HOME</li>
 </Link>
 <Link to={"/shop"} className='shop'>
-  <li>Shop</li>
+  <li>SHOP</li>
 </Link>
 <Link to={"/about"} className='about'>
-  <li>About</li>
+  <li>ABOUT</li>
 </Link>
 <Link to={"/contact"} className='contact'>
-  <li>Contact</li>
+  <li>CONTACT</li>
 </Link>
 
 <Link to={"/registration"} className='registration-mobile'>
-        <li className='userIcon'>Registration</li>
+        <li className='userIcon'>REGISTRATION</li>
 </Link>
 <Link to={"/cart"} className='cart-mobile'>
-<li className='basketIcon'>Cart</li>
+<li className='basketIcon'>CART</li>
 </Link>
 
 

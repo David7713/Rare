@@ -8,3 +8,21 @@ body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
   }
+
+  body{
+    background-color: black;
+  }
+
+  .spinnerContainer{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+  }
+  .spinner{
+        
+        padding: 20px;
+        max-width: 80%;
+        text-align: center;
+  }
