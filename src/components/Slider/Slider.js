@@ -16,7 +16,7 @@ const Slider = () => {
         <SwiperSlide className='boo'>
           
           <div className='text-container'>
-          <h1 className='watchName'>Alertzy</h1>
+          <h1 className='watchName'>Alluring</h1>
           <p className='watchDiscount'>Exclusive Officer -20% Off This Week</p>
           <br></br>
           <span className='watchDescription'>Expanding the offering is the choice between a leather strap or a metal brace at <br></br>
@@ -43,7 +43,7 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
         <div className='text-container2'>
-          <h1 className='watchName'>Gertious</h1>
+          <h1 className='watchName'>Attractive</h1>
           <p className='watchDiscount'>Exclusive Officer -30% Off This Week</p>
           <br></br>
           <span className='watchDescription'>The watch bracelet gives a much far golder personality.Dress watch style.<br></br>

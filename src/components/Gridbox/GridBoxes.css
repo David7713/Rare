@@ -1,0 +1,15 @@
+/* Grid container styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust the minmax value to your desired box width */
+    gap: 16px; /* Adjust the gap between boxes */
+  }
+  
+  /* Box styles */
+  .grid-box {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  

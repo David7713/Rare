@@ -1,0 +1,115 @@
+.popular-component{
+    margin-top:10rem;
+   
+}
+.popular-watches{
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-pagination-bullet {
+    background-color: green !important;
+ }
+
+ .swiper-button-prev:after, .swiper-button-next:after {
+    color:white;
+    font-size: 25px;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #CCA471;
+
+ 
+}
+
+
+
+    .slider-container{
+        width: 80%;
+        height: 1020px;
+        /* border: 1px solid black; */
+        text-align: center;
+        margin-top:40px;
+    }
+
+    .swipSlide1{
+        width: 100%;
+        height: 520px;
+        /* border: 1px solid black; */
+        
+    
+    }
+
+.box{
+    width: 80%;
+    margin-left: 20px;
+    height: 200px;
+    background-color: #343435;;
+}
+
+.box:hover{
+    transition: all 0.7s;
+    height: 410px;
+    background-color: #aaaaaa;
+}
+.watch-image{
+    height: 400px;
+    
+}
+.watch-info{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.watch-name{
+    font-size: 23px;
+    color:white
+}
+.watch-price{
+    font-size: 20px;
+    color:#aaaaaa;
+}
+.rates{
+    color:#CCA471;
+}
+.watch-metal{
+    font-size: 16px;
+    color:#aaaaaa;
+}
+.watch-button{
+    width: 140px;
+    height: 2rem;
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+    position: relative; /* Add relative positioning to create a stacking context */
+    color:black;
+    font-size: 14px;
+    font-weight: 500;
+    /* Define the default background gradient */
+    background-image: linear-gradient(to top, #343435 50%, #CCA471 50%);
+    background-size: 100% 200%; /* Initial position of the gradient */
+  
+    /* Center text horizontally and vertically */
+
+    /* Transition for smooth animation */
+    transition: background-position 0.3s ease-in-out;
+}
+
+.watch-button:hover {
+    /* Adjust the background gradient position on hover */
+    background-position: 0 100%;
+    color:white;
+    /* You can also change the text color on hover */
+    color: white; /* Change to the desired text color */
+  }
+  
+
+  @media (max-width: 768px) {
+  .popular-component{
+    margin-top: 40rem;
+  }
+}

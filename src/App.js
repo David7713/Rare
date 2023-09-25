@@ -11,6 +11,7 @@ import Registration from './pages/Registration/Registration'
 import Cart from './pages/Cart/Cart'
 import Slider from './components/Slider/Slider';
 import ClockLoader from "react-spinners/ClockLoader";
+
 const App = () => {
   const [loading,setLoading] = useState(false)
   useEffect(()=>{

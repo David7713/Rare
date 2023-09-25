@@ -9,10 +9,13 @@ body{
     font-family: 'Poppins', sans-serif;
   }
 
-  body{
-    background-color: black;
-  }
 
+body{
+  color:red;
+  background-color:black;
+}
+
+  
   .spinnerContainer{
     display: flex;
         align-items: center;
