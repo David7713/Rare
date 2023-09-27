@@ -13,7 +13,7 @@ import { Navigation } from 'swiper/modules';
 const Slider = () => {
   return (
 <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
-        <SwiperSlide className='boo'>
+        <SwiperSlide>
           
           <div className='text-container'>
           <h1 className='watchName'>Alluring</h1>

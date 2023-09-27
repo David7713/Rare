@@ -5,6 +5,7 @@ import Popular from '../../components/Popular/Popular'
 import Parallax from '../../components/Parallax/Parallax'
 // import GridBoxes from '../../components/Gridbox/GridBoxes'
 import Catalog from '../../components/Catalog/Catalog'
+import Subscription from '../../components/Subscription/Subscription'
 const Home = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const Home = () => {
     <Popular></Popular>
     <Parallax></Parallax>
     <Catalog></Catalog>
+    <Subscription></Subscription>
 
     </div>
   )
