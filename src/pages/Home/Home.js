@@ -6,6 +6,7 @@ import Parallax from '../../components/Parallax/Parallax'
 // import GridBoxes from '../../components/Gridbox/GridBoxes'
 import Catalog from '../../components/Catalog/Catalog'
 import Subscription from '../../components/Subscription/Subscription'
+import Footer from '../../components/Footer/Footer'
 const Home = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const Home = () => {
     <Parallax></Parallax>
     <Catalog></Catalog>
     <Subscription></Subscription>
+    <Footer></Footer>
 
     </div>
   )
