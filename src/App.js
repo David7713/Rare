@@ -53,6 +53,7 @@ setLoading(false)
      */}
       <Routes>
         <Route path='/Rare' element={<Home />} exact />
+        <Route path='/home' element={<Home />} exact />
         <Route path='/' element={<Home />} exact />
         <Route path='/shop' element={<Shop />} exact />
         <Route path='/about' element={<About />} exact />
