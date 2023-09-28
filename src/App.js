@@ -42,7 +42,7 @@ setLoading(false)
     :
     <Router>
       <NavigationBar></NavigationBar>
-
+      {/* <Home></Home> */}
       {/* <Slider></Slider>
       <Discount></Discount>
     <Popular></Popular>
@@ -52,8 +52,8 @@ setLoading(false)
     <Footer></Footer>
      */}
       <Routes>
-      <Route path='/' element={<Home />} exact />
-        <Route path='/home' element={<Home />} exact />
+        <Route path='/Rare' element={<Home />} exact />
+        <Route path='/' element={<Home />} exact />
         <Route path='/shop' element={<Shop />} exact />
         <Route path='/about' element={<About />} exact />
         <Route path='/contact' element={<Contact />} exact />

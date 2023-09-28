@@ -27,7 +27,7 @@ const NavigationBar = () => {
 
         <ul    className={isMobile ? "pages-mobile" :'pages'}
     onClick={()=>setIsMobile(false)}  >
-<Link to={"/home"} className='home'>
+<Link to={"/"} className='home'>
   <li>HOME</li>
 </Link>
 <Link to={"/shop"} className='shop'>
