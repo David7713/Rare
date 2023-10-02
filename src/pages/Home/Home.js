@@ -7,10 +7,12 @@ import Parallax from '../../components/Parallax/Parallax'
 import Catalog from '../../components/Catalog/Catalog'
 import Subscription from '../../components/Subscription/Subscription'
 import Footer from '../../components/Footer/Footer'
+import BackToTop from '../../components/BackToTop/BackToTop'
 const Home = () => {
   return (
     <div>
       <Slider></Slider>
+      <BackToTop></BackToTop>
     <Discount></Discount>
     <Popular></Popular>
     <Parallax></Parallax>

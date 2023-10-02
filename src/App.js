@@ -10,6 +10,7 @@ import Contact from './pages/Contact/Contact'
 import Registration from './pages/Registration/Registration'
 import ClockLoader from "react-spinners/ClockLoader";
 import Cart from './pages/Cart/Cart'
+import Testing from './components/Testing';
 // import Slider from './components/Slider/Slider';
 // import Discount from './components/Discount/Discount';
 // import Popular from './components/Popular/Popular';
@@ -42,6 +43,7 @@ setLoading(false)
     :
     <Router>
       <NavigationBar></NavigationBar>
+
       {/* <Home></Home> */}
       {/* <Slider></Slider>
       <Discount></Discount>

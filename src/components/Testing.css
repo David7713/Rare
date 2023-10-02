@@ -1,0 +1,10 @@
+.testing-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.testing-main-content{
+    margin-left: 700px;
+    margin-top: 300px;
+
+}

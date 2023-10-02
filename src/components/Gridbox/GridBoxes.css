@@ -12,4 +12,22 @@
     padding: 20px;
     text-align: center;
   }
-  
+  .watches-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the minmax value to your desired box width */
+    gap: 16px; /* Adjust the gap between boxes */
+}
+
+.product-main-container {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-main-container:hover{
+    transition: all 0.7s;
+    height: 410px;
+    background-color: #aaaaaa;
+}
+
