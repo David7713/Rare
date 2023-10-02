@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/Rare/static/css/main.fc631c9c.css",
-    "main.js": "/Rare/static/js/main.2a087d4f.js",
+    "main.css": "/Rare/static/css/main.0cf8ec6d.css",
+    "main.js": "/Rare/static/js/main.fc497120.js",
+    "static/media/shop.png": "/Rare/static/media/shop.40e500f16159f7d8956d.png",
     "static/media/slider2.png": "/Rare/static/media/slider2.40e500f16159f7d8956d.png",
     "static/media/Watch2.png": "/Rare/static/media/Watch2.05f46436f8224d036720.png",
+    "static/media/Watch12.png": "/Rare/static/media/Watch12.370be9a6c2735e81fd32.png",
     "static/media/Watch5.png": "/Rare/static/media/Watch5.0530e0a5f22628ca1aa3.png",
     "static/media/Watch6.png": "/Rare/static/media/Watch6.aaf78f2d95ffaf618ed0.png",
     "static/media/Watch4.png": "/Rare/static/media/Watch4.1b209a6dc04e69cb26d3.png",
+    "static/media/Watch9.png": "/Rare/static/media/Watch9.3cd894da333db94117d3.png",
     "static/media/ParallaxBackground.png": "/Rare/static/media/ParallaxBackground.b2c9b6a9a75b60cd3c82.png",
     "static/media/Watch3.png": "/Rare/static/media/Watch3.7fdd6b624f2037898eb9.png",
     "static/media/slider3.png": "/Rare/static/media/slider3.9fb631055f73c2a806eb.png",
+    "static/media/Watch8.png": "/Rare/static/media/Watch8.222f62d20b9b666e441e.png",
     "static/media/Watch1.png": "/Rare/static/media/Watch1.5f75a892a209151e656a.png",
     "static/media/SubscriptionBackground.png": "/Rare/static/media/SubscriptionBackground.0bb7c8311a48e0f18835.png",
     "static/media/slider1.png": "/Rare/static/media/slider1.e64c2c4a0454611572cf.png",
@@ -20,17 +24,19 @@
     "static/media/Watch7.png": "/Rare/static/media/Watch7.9f54cac5f3c01d99a724.png",
     "static/media/Elegant.png": "/Rare/static/media/Elegant.81859fe403b3636f0c77.png",
     "static/media/Catalog-Image6.png": "/Rare/static/media/Catalog-Image6.68cbdc78209a2d208ba3.png",
+    "static/media/Watch11.png": "/Rare/static/media/Watch11.6354820ec0aa85b2d9e0.png",
     "static/media/Catalog-Image4.png": "/Rare/static/media/Catalog-Image4.dd69336956059dcebd3a.png",
     "static/media/Footer-Background.png": "/Rare/static/media/Footer-Background.45b85fe6eb028cfc406d.png",
     "static/media/watchimg.png": "/Rare/static/media/watchimg.46d6a309614d72b0265c.png",
     "static/media/Premium.jpg": "/Rare/static/media/Premium.3b049ede79d559939633.jpg",
     "static/media/Catalog-Image1.png": "/Rare/static/media/Catalog-Image1.f1b89e639fa63223b0ca.png",
+    "static/media/Watch10.png": "/Rare/static/media/Watch10.0df1f7036845662fe3fd.png",
     "index.html": "/Rare/index.html",
-    "main.fc631c9c.css.map": "/Rare/static/css/main.fc631c9c.css.map",
-    "main.2a087d4f.js.map": "/Rare/static/js/main.2a087d4f.js.map"
+    "main.0cf8ec6d.css.map": "/Rare/static/css/main.0cf8ec6d.css.map",
+    "main.fc497120.js.map": "/Rare/static/js/main.fc497120.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc631c9c.css",
-    "static/js/main.2a087d4f.js"
+    "static/css/main.0cf8ec6d.css",
+    "static/js/main.fc497120.js"
   ]
 }
