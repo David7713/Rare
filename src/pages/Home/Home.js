@@ -13,12 +13,12 @@ const Home = () => {
     <div>
       <Slider></Slider>
       <BackToTop></BackToTop>
-    <Discount></Discount>
-    <Popular></Popular>
-    <Parallax></Parallax>
-    <Catalog></Catalog>
-    <Subscription></Subscription>
-    <Footer></Footer>
+      <Discount></Discount>
+      <Popular></Popular>
+      <Parallax></Parallax>
+      <Catalog></Catalog>
+      <Subscription></Subscription>
+      <Footer></Footer>
 
     </div>
   )

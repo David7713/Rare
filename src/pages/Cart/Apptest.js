@@ -11,9 +11,6 @@ import Registration from './pages/Registration/Registration'
 import ClockLoader from "react-spinners/ClockLoader";
 import Cart from './pages/Cart/Cart'
 import Testing from './components/Testing';
-
-
-
 // import Slider from './components/Slider/Slider';
 // import Discount from './components/Discount/Discount';
 // import Popular from './components/Popular/Popular';
@@ -84,7 +81,7 @@ setLoading(false)
   </div>
     :
     <Router>
-      <NavigationBar Cart={Cart} cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} ></NavigationBar>
+      <NavigationBar Cart={Cart} cartItems={cartItems}></NavigationBar>
 
       {/* <Home></Home> */}
       {/* <Slider></Slider>

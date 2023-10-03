@@ -7,7 +7,7 @@ import MechanicalData from './MechanicalData';
 import AutomatData from './AutomatData';
 import Footer from '../../components/Footer/Footer'
 import { AiFillStar } from 'react-icons/ai';
-
+import { handleFunction } from '../Cart/Cart.js';
 const Shop = ({handleAddProduct}) => {
   const [active,setActive] = useState("Analog-Part")
  
@@ -126,7 +126,7 @@ const Shop = ({handleAddProduct}) => {
 
 
 
-
+<button onClick={handleFunction}>Click me</button>
 
 <Footer></Footer>
 <BackToTop></BackToTop>

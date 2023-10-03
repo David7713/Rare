@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Cart.css';
 import { FaTimes } from 'react-icons/fa';
-import Shop from '../Shop/Shop';
+
 export const handleFunction = () => {
   alert("Hello");
 };
@@ -14,7 +14,6 @@ const Cart = ({ cartItems, handleAddProduct, handleRemoveProduct, handleCartClea
   };
 
   return (
-   <>
     <div className='boo'>
       {isVisible && (
         <div className='cart-sidebar'>
@@ -50,10 +49,7 @@ const Cart = ({ cartItems, handleAddProduct, handleRemoveProduct, handleCartClea
           </div>
         </div>
       )}
-
     </div>
-<div>Hello ALL</div>
-    </>
   );
 };
 
