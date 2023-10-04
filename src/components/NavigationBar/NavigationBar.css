@@ -53,6 +53,17 @@ li {
     display: none;
 }
 
+.cart{
+    display: flex;
+    flex-direction: row;
+}
+.cart-length{
+    margin: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    vertical-align: super;
+    
+}
 .home:hover,
 .about:hover,
 .contact:hover,

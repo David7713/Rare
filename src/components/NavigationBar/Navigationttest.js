@@ -7,10 +7,14 @@ import {FaTimes} from 'react-icons/fa'
 import {BiSolidTimeFive} from 'react-icons/bi'
 import {BsWatch} from 'react-icons/bs'
 import {SlMenu} from 'react-icons/sl'
-const NavigationBar = ({cartItems}) => {
+import Cart from '../../pages/Cart/Cart';
+const NavigationBar = ({cartItems,handleAddProduct,handleCartClear,handleRemoveProduct}) => {
 
   const [isMobile,setIsMobile] = useState(false)
-    
+  const [isCartOpen, setIsCartOpen] = useState(false);
+  const toggleCart = () => {
+    setIsCartOpen(!isCartOpen);
+  };
 
   return (
     <div>
@@ -60,8 +64,10 @@ const NavigationBar = ({cartItems}) => {
         <Link to={"/registration"} className='registration'>
         <li className='userIcon'><FaUser></FaUser></li>
 </Link>
-<Link to={"/cart"} className='cart'>
-<li className='basketIcon'><RiShoppingBasketFill></RiShoppingBasketFill></li>
+<Link to="/cart" className="cart" onClick={toggleCart}>
+        <li className="basketIcon">
+          <RiShoppingBasketFill></RiShoppingBasketFill>
+        </li>
 <li>{cartItems.length === 0 ? "" : cartItems.length}</li>
 </Link>
     
@@ -75,7 +81,14 @@ const NavigationBar = ({cartItems}) => {
    
   </div>
 
-
+  {isCartOpen && (
+        <Cart
+          cartItems={cartItems}
+          handleAddProduct={handleAddProduct}
+          handleRemoveProduct={handleRemoveProduct}
+          handleCartClear={handleCartClear}
+        />
+      )}
 
     </div>
 

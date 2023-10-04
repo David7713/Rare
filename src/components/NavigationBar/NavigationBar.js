@@ -12,9 +12,6 @@ const NavigationBar = ({cartItems,handleAddProduct,handleCartClear,handleRemoveP
 
   const [isMobile,setIsMobile] = useState(false)
   const [isCartOpen, setIsCartOpen] = useState(false);
-  const toggleCart = () => {
-    setIsCartOpen(!isCartOpen);
-  };
 
   return (
     <div>
@@ -64,11 +61,11 @@ const NavigationBar = ({cartItems,handleAddProduct,handleCartClear,handleRemoveP
         <Link to={"/registration"} className='registration'>
         <li className='userIcon'><FaUser></FaUser></li>
 </Link>
-<Link to="/cart" className="cart" onClick={toggleCart}>
+<Link to="/cart" className="cart" >
         <li className="basketIcon">
           <RiShoppingBasketFill></RiShoppingBasketFill>
         </li>
-<li>{cartItems.length === 0 ? "" : cartItems.length}</li>
+<li className='cart-length'>{cartItems.length === 0 ? "" : cartItems.length}</li>
 </Link>
     
         </ul>
@@ -81,14 +78,6 @@ const NavigationBar = ({cartItems,handleAddProduct,handleCartClear,handleRemoveP
    
   </div>
 
-  {isCartOpen && (
-        <Cart
-          cartItems={cartItems}
-          handleAddProduct={handleAddProduct}
-          handleRemoveProduct={handleRemoveProduct}
-          handleCartClear={handleCartClear}
-        />
-      )}
 
     </div>
 

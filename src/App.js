@@ -56,6 +56,9 @@ const App = () => {
     }
   };
 
+
+
+
   const handleCartClear = () =>{
     setCartItems([]);
   }
