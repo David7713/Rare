@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Rare/static/css/main.281965f6.css",
-    "main.js": "/Rare/static/js/main.11a6f9c4.js",
+    "main.js": "/Rare/static/js/main.fc47fe33.js",
     "static/media/cart.png": "/Rare/static/media/cart.40e500f16159f7d8956d.png",
     "static/media/shop.png": "/Rare/static/media/shop.40e500f16159f7d8956d.png",
     "static/media/slider2.png": "/Rare/static/media/slider2.40e500f16159f7d8956d.png",
@@ -34,10 +34,10 @@
     "static/media/Watch10.png": "/Rare/static/media/Watch10.0df1f7036845662fe3fd.png",
     "index.html": "/Rare/index.html",
     "main.281965f6.css.map": "/Rare/static/css/main.281965f6.css.map",
-    "main.11a6f9c4.js.map": "/Rare/static/js/main.11a6f9c4.js.map"
+    "main.fc47fe33.js.map": "/Rare/static/js/main.fc47fe33.js.map"
   },
   "entrypoints": [
     "static/css/main.281965f6.css",
-    "static/js/main.11a6f9c4.js"
+    "static/js/main.fc47fe33.js"
   ]
 }
