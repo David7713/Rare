@@ -130,6 +130,8 @@
   font-size: 20px;
   
 }
+
+
 .quantity-buttons button{
   background-color: black;
   color:gray;
@@ -137,8 +139,15 @@
   height: 30px;
   border: 1px solid white;
   font-size: 20px;
+  cursor: pointer;
 
 }
+.quantity-buttons button:hover{
+  transition: 0.3s ease all;
+  background-color:#CCA471 ;
+  color:white;
+}
+
 
 /* Styles for cart total */
 .cart-total {

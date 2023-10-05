@@ -4,6 +4,8 @@ import {Link} from 'react-router-dom';
 import Shop from '../Shop/Shop';
 import Cartimage from './Cart Assets/cart.png'
 import Footer from '../../components/Footer/Footer';
+import BackToTop from '../../components/BackToTop/BackToTop';
+
 
 const Cart = ({ cartItems, handleAddProduct, handleRemoveProduct, handleCartClear }) => {
   const totalPrice = cartItems.reduce((price, item) => price + parseInt(item.quantity) * parseFloat(item.price), 0);
@@ -105,6 +107,7 @@ const Cart = ({ cartItems, handleAddProduct, handleRemoveProduct, handleCartClea
             </div>}
             </div>
         </div>
+        <BackToTop></BackToTop>
       <Footer></Footer>
     </>
   );
