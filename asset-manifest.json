@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Rare/static/css/main.281965f6.css",
-    "main.js": "/Rare/static/js/main.fc47fe33.js",
+    "main.css": "/Rare/static/css/main.0620e4ff.css",
+    "main.js": "/Rare/static/js/main.eaaa3df6.js",
+    "static/media/about.png": "/Rare/static/media/about.40e500f16159f7d8956d.png",
     "static/media/cart.png": "/Rare/static/media/cart.40e500f16159f7d8956d.png",
     "static/media/shop.png": "/Rare/static/media/shop.40e500f16159f7d8956d.png",
     "static/media/slider2.png": "/Rare/static/media/slider2.40e500f16159f7d8956d.png",
@@ -27,17 +28,19 @@
     "static/media/Catalog-Image6.png": "/Rare/static/media/Catalog-Image6.68cbdc78209a2d208ba3.png",
     "static/media/Watch11.png": "/Rare/static/media/Watch11.6354820ec0aa85b2d9e0.png",
     "static/media/Catalog-Image4.png": "/Rare/static/media/Catalog-Image4.dd69336956059dcebd3a.png",
+    "static/media/watch-style.png": "/Rare/static/media/watch-style.d08b87446daa716fd397.png",
     "static/media/Footer-Background.png": "/Rare/static/media/Footer-Background.45b85fe6eb028cfc406d.png",
     "static/media/watchimg.png": "/Rare/static/media/watchimg.46d6a309614d72b0265c.png",
     "static/media/Premium.jpg": "/Rare/static/media/Premium.3b049ede79d559939633.jpg",
     "static/media/Catalog-Image1.png": "/Rare/static/media/Catalog-Image1.f1b89e639fa63223b0ca.png",
+    "static/media/hand-made.jpg": "/Rare/static/media/hand-made.09ecd5fff9d59f404d6b.jpg",
     "static/media/Watch10.png": "/Rare/static/media/Watch10.0df1f7036845662fe3fd.png",
     "index.html": "/Rare/index.html",
-    "main.281965f6.css.map": "/Rare/static/css/main.281965f6.css.map",
-    "main.fc47fe33.js.map": "/Rare/static/js/main.fc47fe33.js.map"
+    "main.0620e4ff.css.map": "/Rare/static/css/main.0620e4ff.css.map",
+    "main.eaaa3df6.js.map": "/Rare/static/js/main.eaaa3df6.js.map"
   },
   "entrypoints": [
-    "static/css/main.281965f6.css",
-    "static/js/main.fc47fe33.js"
+    "static/css/main.0620e4ff.css",
+    "static/js/main.eaaa3df6.js"
   ]
 }
