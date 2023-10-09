@@ -1,28 +1,29 @@
 import React from 'react'
 import { useState } from 'react'
 import './Contact.css'
-import ContactImage from './Contact Assets/contact.png'
 import {BsFillTelephoneFill} from 'react-icons/bs'
 import {MdEmail} from 'react-icons/md'
 import {MdLocationOn} from 'react-icons/md'
 import Footer from '../../components/Footer/Footer'
 import BackToTop from '../../components/BackToTop/BackToTop'
 import {IoCheckmarkCircle} from 'react-icons/io5'
-
+import ContactImage from './Contact Assets/contact.png'
 import {useFormik} from 'formik'
 import * as Yup from 'yup'
 
 
 const Contact = () => {
 
-  const [isSubmitted, setIsSubmitted] = useState(false);
 
+
+  const [isSubmitted, setIsSubmitted] = useState(false);
 const formik = useFormik({
   initialValues :{
     name:"",
     email:"",
     number:"",
     comment:"",
+  
 
   },
   validationSchema: Yup.object({
@@ -30,10 +31,11 @@ const formik = useFormik({
     email:Yup.string().email("Invalid Email Address").required("Required"),
     number:Yup.number().required("Required"),
     comment:Yup.string().max(100,"Must be 100 Charecter or Less").required("Required"),
+       
   }),
   
   onSubmit:(values) =>{
-    setIsSubmitted(true);
+    setIsSubmitted(true)
   }
 })
 
@@ -58,8 +60,8 @@ const formik = useFormik({
       <div> 
       <BsFillTelephoneFill className='contact-box-icon'></BsFillTelephoneFill>
     <p>Phone</p>
-    <span>01298339<br></br>
-    919238012093</span>
+    <span> 0000 - 123 - 456789<br></br>
+    0000 - 987-654-321</span>
 
         
       </div>
@@ -104,6 +106,12 @@ Baltimore, MD, USA 4508</span>
 
 
       </div>
+
+
+
+
+
+
 
 
 

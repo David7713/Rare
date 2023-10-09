@@ -97,9 +97,13 @@
     background-color: #030d1d;;
 }
 
+
 .contact-container div:hover{
     transition: 1s ease all;
     border:1px solid #CCA471;
+    .contact-box-icon{
+      color:#CCA471;;
+    }
    
 }
 

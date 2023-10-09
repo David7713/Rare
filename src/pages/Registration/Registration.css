@@ -1,0 +1,150 @@
+.registration-text {
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 40px;
+    text-align: center;
+    color: #030d1d;
+}
+
+/* Default styles for shop-image */
+.registration-image {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    background-color: white;
+}
+
+/* Default styles for shop-part */
+.registration-part {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.user-registration-login-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.user-registration-login-part p{
+    color: red;
+    margin-top: 0.5rem;
+    font-size: 12px;
+}
+.user-login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 500px;
+   
+}
+.user-login-form input{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border: 1px solid gray;
+    color: gray;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 0.5rem;
+    font-size: 14px;
+    
+}
+#login{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.submit-registration-part{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+  
+}
+.submit-registration-part p{
+    
+    color:white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.submit-registration-part p:hover{
+    color:#CCA471 ;
+}
+
+.user-registration-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 500px;
+}
+.user-registration-form input{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    border: 1px solid gray;
+    color: gray;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 0.5rem;
+    font-size: 14px;
+}
+
+#register{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-family: 'Playfair Display', serif;
+}
+
+@media screen and (max-width: 768px) {
+    .user-login-form{
+        width: 90%;
+        
+    }
+    .user-registration-form{
+        width: 90%;
+    }
+}
+
+/* Media queries for mobile devices */
+@media screen and (max-width: 480px) {
+    .user-login-form,
+    .user-registration-form{
+        width: 80%;
+
+    }
+    .submit-registration-part{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}

@@ -13,7 +13,7 @@ const Subscription = () => {
     <div className='subscription-text'>
         <p className='subscription-header'>Subscription</p>
         <div className="input-button-container">
-    <input type="text" placeholder="Email Address" />
+    <input type="email" placeholder="Email Address" />
     <button>SUBSCRIBE</button>
   </div>
         <p className='subscription-policy'>Will be used in accordance with our Privacy policy</p>

@@ -11,6 +11,7 @@ import BackToTop from '../../components/BackToTop/BackToTop'
 const Home = () => {
   return (
     <div>
+      
       <Slider></Slider>
       <BackToTop></BackToTop>
       <Discount></Discount>
