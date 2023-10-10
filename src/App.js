@@ -11,8 +11,10 @@ import Registration from './pages/Registration/Registration'
 import ClockLoader from "react-spinners/ClockLoader";
 import Cart from './pages/Cart/Cart'
 import Testing from './components/Testing';
-
-
+import WatchDetail from './pages/WatchDetail/WatchDetail';
+import Analogdata from './pages/Shop/AnalogData';
+import MechanicalData from './pages/Shop/MechanicalData';
+import AutomatData from './pages/Shop/AutomatData';
 
 // import Slider from './components/Slider/Slider';
 // import Discount from './components/Discount/Discount';
@@ -30,17 +32,21 @@ const App = () => {
     const ProductExist = cartItems.find((item) => item.id === product.id);
     if (ProductExist) {
       setCartItems(
+    
         cartItems.map((item) =>
+        
           item.id === product.id
             ? { ...ProductExist, quantity: ProductExist.quantity + 1 }
             : item
-        )
-      );
-    } else {
+            )
+            
+            );
+       } else {
       setCartItems([...cartItems, { ...product, quantity: 1 }]);
     }
+    console.log(product)
   };
-
+ 
 
 
   const handleRemoveProduct = (product) => {
@@ -112,6 +118,15 @@ setLoading(false)
          handleRemoveProduct={handleRemoveProduct}
          handleCartClear={handleCartClear}/>
          } exact />
+      <Route path='/watch/Analog/:id' element={<WatchDetail watches={Analogdata} 
+      cartItems={cartItems} 
+      handleAddProduct={handleAddProduct}
+      handleRemoveProduct={handleRemoveProduct}
+      handleCartClear={handleCartClear}/>
+      } />
+  <Route path='/watch/Mechanical/:id' element={<WatchDetail watches={MechanicalData} />} />
+  <Route path='/watch/Automat/:id' element={<WatchDetail watches={AutomatData} />} />
+
       </Routes>
     </Router>
 }

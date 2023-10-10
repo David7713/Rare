@@ -10,27 +10,47 @@ const MechanicalData = [
         "name": "Patek Philippe",
         "price":"950$",
         "metal": "Leather",
+        "type":"Mechanical",
+        "availability":"3 in Stock",
+        "color":"#FFD700",
+        "size":"42mm"
+        
     },
     {
-        "id": 5,
+        "id": 6,
         "image": image6,
         "name": "Omega",
         "price":"2250$",
         "metal": "Titanium",
+        "type":"Mechanical",
+        "availability":"5 in Stock",
+        "color":"#FFD700",
+        "size":"46mm"
+        
     },
     {
-        "id": 6,
+        "id": 7,
         "image": image7,   
         "name": "GTAG Heuer",
         "price":"1550$",
         "metal": "Gold",
+        "type":"Mechanical",
+        "availability":"2 in Stock",
+        "color":"#FFD700",
+        "size":"40mm"
+        
     },
     {
-        "id": 7,
+        "id": 8,
         "image": image8,
         "name": "Seiko",
         "price":"1950$",
         "metal": "Platinum",
+        "type":"Mechanical",
+        "availability":"1 in Stock",
+        "color":"#C0C0C0",
+        "size":"41mm"
+        
     }
 
    

@@ -45,7 +45,7 @@ const Registration = () => {
   const Login = async () => {
     try {
       const user = await signInWithEmailAndPassword(auth, formik.values.email, formik.values.password);
-      window.location.reload();
+
       console.log(user);
     } catch (error) {
       // Handle errors and set the error state
@@ -63,7 +63,7 @@ const Registration = () => {
 
   const Logout = async () => {
     await signOut(auth)
-    window.location.reload();
+
   }
 
 
@@ -74,7 +74,7 @@ const Registration = () => {
   const Register = async () => {
     try {
       const user = await createUserWithEmailAndPassword(auth, formik.values.email, formik.values.password);
-      window.location.reload();
+     
     } catch (error) {
       console.error(error.message);
     }
@@ -183,8 +183,10 @@ const Registration = () => {
 
 
 
+      {   user ? (
+""
+      ) : ( <div className='user-registration-part'>
       {active === "Register-Part" && <>
-        <div className='user-registration-part'>
           <p id='register'>Create account</p>
           <form className='user-registration-form'
 
@@ -248,9 +250,8 @@ const Registration = () => {
 
           </form>
 
-        </div>
-      </>}
-
+          </>}
+        </div>)}
 
       <Footer></Footer>
       <BackToTop></BackToTop>

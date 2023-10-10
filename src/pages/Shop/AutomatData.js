@@ -10,6 +10,10 @@ const AutomatData = [
         "name": "Tissot",
         "price":"1750$",
         "metal": "Leather",
+        "type":"Automat",
+        "availability":"3 in Stock",
+        "color":"#FFD700",
+        "size":"47mm"
     },
     {
         "id": 10,
@@ -17,6 +21,10 @@ const AutomatData = [
         "name": "Citizen",
         "price":"2250$",
         "metal": "Titanium",
+        "type":"Automat",
+        "availability":"3 in Stock",
+        "color":"#33363D",
+        "size":"43mm"
     },
     {
         "id": 11,
@@ -24,6 +32,10 @@ const AutomatData = [
         "name": "Bulova",
         "price":"1550$",
         "metal": "Gold",
+        "type":"Automat",
+        "availability":"3 in Stock",
+        "color":"#33363D",
+        "size":"45mm"
     },
     {
         "id": 12,
@@ -31,6 +43,10 @@ const AutomatData = [
         "name": "Panerai",
         "price":"1950$",
         "metal": "Platinum",
+        "type":"Automat",
+        "availability":"3 in Stock",
+        "color":"#33363D",
+        "size":"41mm"
     }
 
    

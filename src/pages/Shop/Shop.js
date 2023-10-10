@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './Shop.css'
+import { Link } from 'react-router-dom';
 import Shopimage from './Shop Assets/shop.png'
 import BackToTop from '../../components/BackToTop/BackToTop'
 import Analogdata from './AnalogData';
@@ -42,6 +43,7 @@ const Shop = ({handleAddProduct}) => {
     {Analogdata.map(function (item) {
         return (
             <div className='product-main-container' key={item.id}>
+         <Link to={`/watch/Analog/${item.id}`}>
                 <div className='product-container'>
                     <img className='product-image' src={item.image} alt={item.name} />
                     <div className='product-info'>
@@ -54,10 +56,11 @@ const Shop = ({handleAddProduct}) => {
                             <AiFillStar />
                             <AiFillStar />
                         </p>
-                        <p className='product-metal'>{item.metal}</p>
-                        <button onClick={()=>handleAddProduct(item)} className='product-button'>ADD TO CART</button>
+                        <p className='product-material'>{item.material}</p>
                     </div>
                 </div>
+                </Link>
+                        <button onClick={()=>handleAddProduct(item)} className='product-button'>ADD TO CART</button>
             </div>
         );
     })}
@@ -72,6 +75,7 @@ const Shop = ({handleAddProduct}) => {
     {MechanicalData.map(function (item) {
         return (
             <div className='product-main-container' key={item.id}>
+              <Link to={`/watch/Mechanical/${item.id}`}>
                 <div className='product-container'>
                     <img className='product-image' src={item.image} alt={item.name} />
                     <div className='product-info'>
@@ -84,10 +88,11 @@ const Shop = ({handleAddProduct}) => {
                             <AiFillStar />
                             <AiFillStar />
                         </p>
-                        <p className='product-metal'>{item.metal}</p>
-                        <button onClick={()=>handleAddProduct(item)}  className='product-button'>ADD TO CART</button>
+                        <p className='product-material'>{item.material}</p>
                     </div>
                 </div>
+                </Link>
+                        <button onClick={()=>handleAddProduct(item)}  className='product-button'>ADD TO CART</button>
             </div>
         );
     })}
@@ -103,6 +108,7 @@ const Shop = ({handleAddProduct}) => {
     {AutomatData.map(function (item) {
         return (
             <div className='product-main-container' key={item.id}>
+                        <Link to={`/watch/Automat/${item.id}`}>
                 <div className='product-container'>
                     <img className='product-image' src={item.image} alt={item.name} />
                     <div className='product-info'>
@@ -115,10 +121,11 @@ const Shop = ({handleAddProduct}) => {
                             <AiFillStar />
                             <AiFillStar />
                         </p>
-                        <p className='product-metal'>{item.metal}</p>
-                        <button  onClick={()=>handleAddProduct(item)} className='product-button'>ADD TO CART</button>
+                        <p className='product-material'>{item.material}</p>
                     </div>
                 </div>
+                </Link>
+                        <button  onClick={()=>handleAddProduct(item)} className='product-button'>ADD TO CART</button>
             </div>
         );
     })}

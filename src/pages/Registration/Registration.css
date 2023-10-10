@@ -1,3 +1,4 @@
+
 .registration-text {
     font-family: 'Playfair Display', serif;
     position: absolute;
@@ -64,7 +65,6 @@
     background-color: black;
     border: 1px solid gray;
     color: gray;
-    box-sizing: border-box;
     padding: 10px;
     margin-top: 0.5rem;
     font-size: 14px;
