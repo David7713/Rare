@@ -84,6 +84,7 @@
     align-items: center;
     justify-content: space-between;
     width: 500px;
+
   
 }
 .submit-registration-part p{
@@ -100,10 +101,21 @@
 .user-registration-form{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     margin-top: 1rem;
     width: 100%;
     max-width: 500px;
+   
+  
+}
+
+.user-registration-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+
 }
 .user-registration-form input{
     width: 100%;
@@ -124,7 +136,35 @@
     margin-bottom: 1rem;
     font-family: 'Playfair Display', serif;
 }
+.logged-in-user{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 300px;
+    color:white;
+    align-items: center;
+    text-align: center;
+}
+.logged-in-user div {
+    display: flex;
+    flex-direction: column;
 
+}
+.logged-in-user div h2 {
+    font-size: 40px;
+    margin-top: 3rem;
+    font-family: 'Playfair Display', serif;
+}
+.logged-in-user p{
+    color:gray;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px;
+}
+.logged-in-user p:hover{
+    color:#CCA471;
+}
 @media screen and (max-width: 768px) {
     .user-login-form{
         width: 90%;
@@ -132,6 +172,12 @@
     }
     .user-registration-form{
         width: 90%;
+    }
+    .logged-in-user h2{
+        font-size: 35px;
+    }
+    .logged-in-user p{
+        font-size: 16px;
     }
 }
 
@@ -142,9 +188,17 @@
         width: 80%;
 
     }
+    
     .submit-registration-part{
         display: flex;
         align-items: flex-start;
         flex-direction: column;
+    }
+    .logged-in-user div h2{
+        font-size: 25px;
+        
+    }
+    .logged-in-user p{
+        font-size: 15px;
     }
 }
