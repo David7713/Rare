@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Rare/static/css/main.5c85d9b6.css",
-    "main.js": "/Rare/static/js/main.494c3d61.js",
+    "main.css": "/Rare/static/css/main.cb0af8b7.css",
+    "main.js": "/Rare/static/js/main.3f99f45b.js",
     "static/media/about.png": "/Rare/static/media/about.40e500f16159f7d8956d.png",
     "static/media/cart.png": "/Rare/static/media/cart.40e500f16159f7d8956d.png",
     "static/media/contact.png": "/Rare/static/media/contact.40e500f16159f7d8956d.png",
+    "static/media/registration.png": "/Rare/static/media/registration.40e500f16159f7d8956d.png",
     "static/media/shop.png": "/Rare/static/media/shop.40e500f16159f7d8956d.png",
     "static/media/slider2.png": "/Rare/static/media/slider2.40e500f16159f7d8956d.png",
     "static/media/Watch2.png": "/Rare/static/media/Watch2.05f46436f8224d036720.png",
@@ -37,11 +38,11 @@
     "static/media/hand-made.jpg": "/Rare/static/media/hand-made.09ecd5fff9d59f404d6b.jpg",
     "static/media/Watch10.png": "/Rare/static/media/Watch10.0df1f7036845662fe3fd.png",
     "index.html": "/Rare/index.html",
-    "main.5c85d9b6.css.map": "/Rare/static/css/main.5c85d9b6.css.map",
-    "main.494c3d61.js.map": "/Rare/static/js/main.494c3d61.js.map"
+    "main.cb0af8b7.css.map": "/Rare/static/css/main.cb0af8b7.css.map",
+    "main.3f99f45b.js.map": "/Rare/static/js/main.3f99f45b.js.map"
   },
   "entrypoints": [
-    "static/css/main.5c85d9b6.css",
-    "static/js/main.494c3d61.js"
+    "static/css/main.cb0af8b7.css",
+    "static/js/main.3f99f45b.js"
   ]
 }
