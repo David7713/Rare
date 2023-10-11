@@ -22,6 +22,9 @@
   .backtobutton:hover{ background-position: 0 100%;
   color: white;
   }
+
+
+  /* Media Queries ==========> */
   @media screen and (max-width: 767px) {
     .BackToTop {
       bottom: 10px;

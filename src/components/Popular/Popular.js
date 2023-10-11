@@ -1,12 +1,15 @@
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import { AiFillStar } from 'react-icons/ai';
-import 'swiper/css/free-mode';
-import 'swiper/css/pagination';
 import './Popular.css';
 import data from './PopularData';
+
+import { Link } from 'react-router-dom';
+import { AiFillStar } from 'react-icons/ai';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/free-mode';
+import 'swiper/css/pagination';
 
 const Popular = () => {
   const breakpoints = {
@@ -22,7 +25,7 @@ const Popular = () => {
   };
 
   return (
-    <div className='popular-component'> 
+    <div className='popular-component'>
       <p className='popular-watches'>Popular In Store</p>
       <Swiper
         className='slider-container'
@@ -30,31 +33,32 @@ const Popular = () => {
         grabCursor={true}
         modules={[FreeMode, Navigation]}
         spaceBetween={-50}
-        
+
         navigation={true}
         breakpoints={breakpoints}
       >
         {data.map(function (item) {
           return (
-          
+
             <SwiperSlide className='swipSlide1' key={item.id}>
-        
-              <div className='box'>
-                <img className='watch-image' src={item.image} alt={item.name} />
-                <div className='watch-info'>
-                  <p className='watch-name'>{item.name}</p>
-                  <p className='watch-price'>{item.price}</p>
-                  <p className='rates'>
-                    <AiFillStar />
-                    <AiFillStar />
-                    <AiFillStar />
-                    <AiFillStar />
-                    <AiFillStar />
-                  </p>
-                  <p className='watch-metal'>{item.metal}</p>
-                  <button className='watch-button'>ADD TO CART</button>
+              <Link to={`/watch/Analog/${item.id}`}>
+                <div className='box'>
+                  <img className='watch-image' src={item.image} alt={item.name} />
+                  <div className='watch-info'>
+                    <p className='watch-name'>{item.name}</p>
+                    <p className='watch-price'>{item.price}</p>
+                    <p className='rates'>
+                      <AiFillStar />
+                      <AiFillStar />
+                      <AiFillStar />
+                      <AiFillStar />
+                      <AiFillStar />
+                    </p>
+                    <p className='watch-metal'>{item.metal}</p>
+                    <button className='watch-button'>Explore Now</button>
+                  </div>
                 </div>
-              </div>
+              </Link>
             </SwiperSlide>
           );
         })}

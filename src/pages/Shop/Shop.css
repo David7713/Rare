@@ -1,4 +1,4 @@
-/* Default styles for shop-text */
+
 .shop-text {
     font-family: 'Playfair Display', serif;
     position: absolute;
@@ -14,7 +14,7 @@
     color: #030d1d;
 }
 
-/* Default styles for shop-image */
+
 .shop-image {
     max-width: 100%;
     max-height: 300px;
@@ -22,7 +22,7 @@
     background-color: white;
 }
 
-/* Default styles for shop-part */
+
 .shop-part {
     position: relative;
     text-align: center;
@@ -32,7 +32,6 @@
     justify-content: center;
 }
 
-/* Default styles for product-categories */
 .product-categories {
     width: 100%;
     margin-top: 2rem;
@@ -66,8 +65,8 @@
 
 .watches-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the minmax value to your desired box width */
-    gap: 16px; /* Adjust the gap between boxes */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 16px; 
    
 }
 
@@ -115,26 +114,19 @@
     height: 2rem;
     cursor: pointer;
     font-family: 'Source Sans Pro', sans-serif;
-    position: relative; /* Add relative positioning to create a stacking context */
+    position: relative; 
     color:black;
     font-size: 14px;
     font-weight: 500;
-    /* Define the default background gradient */
     background-image: linear-gradient(to top, #343435 50%, #CCA471 50%);
-    background-size: 100% 200%; /* Initial position of the gradient */
-  
-    /* Center text horizontally and vertically */
-
-    /* Transition for smooth animation */
+    background-size: 100% 200%; 
     transition: background-position 0.3s ease-in-out;
 }
 
 .product-button:hover {
-    /* Adjust the background gradient position on hover */
+
     background-position: 0 100%;
     color:white;
-    /* You can also change the text color on hover */
-    color: white; /* Change to the desired text color */
   }
 
   @media screen and (max-width: 768px) {

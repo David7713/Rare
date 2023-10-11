@@ -38,29 +38,21 @@ const data = [
 
     ,
     {
-        "id": 5,
-        "image": image5,
-        "name": "Cartier",
-        "price":"800$",
-        "metal": "Stainless Steel",
-    }
+        "id": 2,
+        "image": image2,
+        "name": "Fossil",
+        "price":"250$",
+        "metal": "Titanium",
+    },
 
     ,
     {
-        "id": 6,
-        "image": image6,
-        "name": "TAG Heuer",
-        "price":"1400$",
-        "metal": "Palladium",
-    }
-    ,
-    {
-        "id": 7,
-        "image": image7,
-        "name": "Omega",
-        "price":"1300$",
-        "metal": "Gold",
-    }
+        "id": 1,
+        "image": image1,
+        "name": "Analog Numeral",
+        "price":"750$",
+        "metal": "Leather",
+    },
  
     
   

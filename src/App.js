@@ -2,32 +2,31 @@ import React from 'react'
 import './App.css' 
 import { useState ,useEffect} from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import ClockLoader from "react-spinners/ClockLoader";
 import NavigationBar from './components/NavigationBar/NavigationBar'
 import Home from './pages/Home/Home'
+import Popular from './components/Popular/Popular';
 import Shop from './pages/Shop/Shop'
 import About from './pages/About/About'
 import Contact from './pages/Contact/Contact'
 import Registration from './pages/Registration/Registration'
-import ClockLoader from "react-spinners/ClockLoader";
 import Cart from './pages/Cart/Cart'
-import Testing from './components/Testing';
 import WatchDetail from './pages/WatchDetail/WatchDetail';
 import Analogdata from './pages/Shop/AnalogData';
 import MechanicalData from './pages/Shop/MechanicalData';
 import AutomatData from './pages/Shop/AutomatData';
 
-// import Slider from './components/Slider/Slider';
-// import Discount from './components/Discount/Discount';
-// import Popular from './components/Popular/Popular';
-// import Parallax from './components/Parallax/Parallax';
-// import Catalog from './components/Catalog/Catalog';
-// import Subscription from './components/Subscription/Subscription';
-// import Footer from './components/Footer/Footer';
+
 
 const App = () => {
+
+
   const [loading,setLoading] = useState(false)
   const [cartItems,setCartItems] = useState([])
   
+
+
+  //Cart Functions//
   const handleAddProduct = (product) => {
     const ProductExist = cartItems.find((item) => item.id === product.id);
     if (ProductExist) {
@@ -69,7 +68,7 @@ const App = () => {
     setCartItems([]);
   }
   
-
+//Spinner//
   useEffect(()=>{
     setLoading(true)
     setTimeout(()=>{
@@ -94,19 +93,11 @@ setLoading(false)
     :
     <Router>
       <NavigationBar Cart={Cart} cartItems={cartItems} handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct} ></NavigationBar>
-
-      {/* <Home></Home> */}
-      {/* <Slider></Slider>
-      <Discount></Discount>
-    <Popular></Popular>
-    <Parallax></Parallax>
-    <Catalog></Catalog>
-    <Subscription></Subscription>
-    <Footer></Footer>
-     */}
       <Routes>
         <Route path='/Rare' element={<Home />} exact />
-        <Route path='/home' element={<Home />} exact />
+        <Route path='/home' element={<Home 
+        
+        handleAddProduct={handleAddProduct}/>} exact />
         <Route path='/' element={<Home />} exact />
         <Route path='/shop'  element={<Shop handleAddProduct={handleAddProduct} handleRemoveProduct={handleRemoveProduct}/>} exact />
         <Route path='/about' element={<About />} exact />

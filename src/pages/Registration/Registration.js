@@ -1,12 +1,17 @@
 import { useState, useEffect } from 'react'
 import './Registration.css'
+
 import Footer from '../../components/Footer/Footer'
 import BackToTop from '../../components/BackToTop/BackToTop'
+
 import RegistrationImage from './Registration Assets/registration.png'
+
 import { useFormik } from 'formik'
+import * as Yup from 'yup'
+
 import { RiErrorWarningFill } from 'react-icons/ri'
 import { FaUser } from 'react-icons/fa'
-import * as Yup from 'yup'
+
 import {
   createUserWithEmailAndPassword,
   onAuthStateChanged,
@@ -19,14 +24,10 @@ import { auth } from '../../firebase-config/firebase-config'
 const Registration = () => {
 
 
-
-
-
-
   const [user, setUser] = useState(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [error, setError] = useState(null);
-
+  const [active, setActive] = useState("Login-Part")
 
 
   useEffect(() => {
@@ -60,27 +61,20 @@ const Registration = () => {
 
 
 
-
   const Logout = async () => {
     await signOut(auth)
 
   }
 
 
-
-
-
-
   const Register = async () => {
     try {
       const user = await createUserWithEmailAndPassword(auth, formik.values.email, formik.values.password);
-     
+
     } catch (error) {
       console.error(error.message);
     }
   };
-
-
 
 
 
@@ -93,7 +87,6 @@ const Registration = () => {
 
     },
     validationSchema: Yup.object({
-
       email: Yup.string().email("Invalid Email Address").required("Required"),
       password: Yup.string().min(8, "Must be 8 Charecter or More").max(15, "Must be 15 Charecter or Less").required("Required"),
     }),
@@ -105,10 +98,6 @@ const Registration = () => {
 
 
 
-
-
-  const [active, setActive] = useState("Login-Part")
-
   return (
 
     <div>
@@ -117,7 +106,7 @@ const Registration = () => {
         <div className='registration-text'>
           <p>ACCOUNT</p>
         </div>
-        <img className='registration-image' src={RegistrationImage}></img>
+        <img className='registration-image' src={RegistrationImage} alt='registration-main-image'></img>
 
       </div>
 
@@ -128,12 +117,10 @@ const Registration = () => {
           <div>
             <h2>Account</h2>
             <p onClick={Logout}>  <FaUser></FaUser>Sign Out</p>
-
             <h2>Order history</h2>
             <p>You haven't placed any orders yet.</p>
           </div>
           <div>
-
             <h2>Account Details</h2>
             <p>  {user.email}</p>
           </div>
@@ -181,21 +168,14 @@ const Registration = () => {
 
 
 
-
-
-      {   user ? (
-""
-      ) : ( <div className='user-registration-part'>
-      {active === "Register-Part" && <>
+      {user ? (
+        ""
+      ) : (<div className='user-registration-part'>
+        {active === "Register-Part" && <>
           <p id='register'>Create account</p>
           <form className='user-registration-form'
-
             onSubmit={formik.handleSubmit}
           >
-
-
-
-
 
             <input
               type='text'
@@ -208,11 +188,6 @@ const Registration = () => {
               value={formik.values.name}
             ></input>
             {formik.touched.name && formik.errors.name ? <p>{formik.errors.name}</p> : null}
-
-
-
-
-
 
             <input
               type='email'
@@ -228,10 +203,6 @@ const Registration = () => {
             {formik.touched.email && formik.errors.email ? <p >{formik.errors.email}</p> : null}
 
 
-
-
-
-
             <input
               type='password'
               className='password'
@@ -245,16 +216,16 @@ const Registration = () => {
             ></input>
             <br></br>
             {formik.touched.password && formik.errors.password ? <p >{formik.errors.password}</p> : null}
-
             <button onClick={Register} className='submit' type='submit' >Register</button>
-
           </form>
+        </>}
+      </div>)}
 
-          </>}
-        </div>)}
 
       <Footer></Footer>
       <BackToTop></BackToTop>
+
+
     </div>
 
 

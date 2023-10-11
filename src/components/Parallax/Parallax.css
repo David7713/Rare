@@ -1,21 +1,20 @@
-/* Typography */
 .parallax-title {
   font-size: 24px;
   color: white;
 }
 
-/* Page Wrapper */
+
 .wrapper {
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
   perspective: 10px;
-  scrollbar-width: none; /* Hide the scrollbar for Firefox */
-  -ms-overflow-style: none; /* Hide the scrollbar for IE and Edge */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .wrapper::-webkit-scrollbar {
-  width: 0; /* Hide the scrollbar for WebKit browsers (Chrome, Safari, etc.) */
+  width: 0;
 }
 
 /* Parallax Section */
@@ -39,32 +38,28 @@
   transform: translateZ(-10px) scale(2);
 }
 
-/* Shop Button */
+
 .shop-button {
   width: 140px;
   height: 2rem;
   cursor: pointer;
   margin-top: 1rem;
   font-family: 'Source Sans Pro', sans-serif;
-  position: relative; /* Add relative positioning to create a stacking context */
+  position: relative;
   color: black;
   font-size: 14px;
   font-weight: 500;
-  /* Define the default background gradient */
   background-image: linear-gradient(to top, #343435 50%, #CCA471 50%);
-  background-size: 100% 200%; /* Initial position of the gradient */
-
-  /* Transition for smooth animation */
+  background-size: 100% 200%;
   transition: background-position 0.3s ease-in-out;
 }
 
 .shop-button:hover {
-  /* Adjust the background gradient position on hover */
   background-position: 0 100%;
-  color: white; /* Change to the desired text color on hover */
+  color: white;
 }
 
-/* Watch Section */
+
 .watch-section {
   color: white;
   background-color: black;
@@ -98,30 +93,36 @@
   font-family: 'Playfair Display', serif;
 }
 
-/* Media query for smaller screens (e.g., tablets) */
+/* Media Queries =========> */
+
+
 @media (max-width: 768px) {
-    .watch-img  {
-           display: none;
+  .watch-img {
+    display: none;
   }
+
   .watch-section-info {
 
     margin-left: 20px;
   }
-  .parallax-title{
+
+  .parallax-title {
     text-align: center;
   }
 }
 
-/* Media query for even smaller screens (e.g., phones) */
+
 @media (max-width: 480px) {
-    .watch-img {
+  .watch-img {
     display: none;
   }
+
   .watch-section-info {
 
     margin-left: 20px;
   }
-  .parallax-title{
+
+  .parallax-title {
     text-align: center;
   }
 }

@@ -1,156 +1,156 @@
-/* Base styles */
-
 .subscription-part {
-    position: relative;
-    text-align: center;
-    align-items: center;
-    color: white;
-    display: flex;
-    margin-top: 2rem;
-    justify-content: center;
-  
-   
+  position: relative;
+  text-align: center;
+  align-items: center;
+  color: white;
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+
+
+}
+
+.SubscriptionBackground {
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.subscription-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscription-header {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+
+.input-button-container {
+  display: flex;
+  font-family: 'Source Sans Pro', sans-serif;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.input-button-container input {
+  padding: 5px;
+  margin-right: 5px;
+  width: 25rem;
+  height: 3rem;
+  color: white;
+  background-color: black;
+  border: 1px solid gray;
+}
+
+.input-button-container input:focus {
+  border-color: #CCA471;
+  outline: none;
+}
+
+.input-button-container button {
+  border: none;
+  cursor: pointer;
+  width: 10rem;
+  cursor: pointer;
+  font-weight: 500;
+  position: relative;
+  color: white;
+  background-image: linear-gradient(to top, #CCA471 50%, #343435 50%);
+  background-size: 100% 200%;
+  padding: 5px 10px;
+  transition: background-position 0.3s ease-in-out;
+}
+
+.input-button-container button:hover {
+  background-position: 0 100%;
+  color: white;
+}
+
+.subscription-policy {
+  color: gray;
+  margin-top: 1rem;
+  font-size: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.subscription-text li {
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+  margin-left: 1rem;
+  margin-top: 2rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+  background-image: linear-gradient(to top, #CCA471 50%, #343435 50%);
+  background-size: 100% 200%;
+  padding: 5px 10px;
+  transition: background-position 0.3s ease-in-out;
+}
+
+.subscription-text li:hover {
+  background-position: 0 100%;
+  color: white;
+}
+
+/* Media Queries =========> */
+
+/* Responsive styles for tablet */
+@media screen and (max-width: 768px) {
+  .subscription-part {
+    margin-top: 3rem;
   }
-  
-  .SubscriptionBackground {
-    max-width: 100%;
-    max-height: 400px;
-    object-fit: cover;
+
+  .subscription-header {
+    font-size: 30px;
   }
-  
-  .subscription-text {
-    position: absolute;
-    display: flex;
+
+  .input-button-container {
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-  }
-  
-  .subscription-header {
-    color: white;
-    font-family: 'Playfair Display', serif;
-    font-size: 40px;
-    margin-bottom: 2rem;
-  }
-  
-  .input-button-container {
-    display: flex;
-    font-family: 'Source Sans Pro', sans-serif;
-    justify-content: center;
-    margin-top: 10px;
-  }
-  
-  .input-button-container input {
-    padding: 5px;
-    margin-right: 5px;
-    width: 25rem;
-    height: 3rem;
-    color:white;
-    background-color: black;
-    border: 1px solid gray;
-  }
-  
-  .input-button-container input:focus {
-    border-color: #CCA471;
-    outline: none;
-  }
-  
-  .input-button-container button {
-    border: none;
-    cursor: pointer;
-    width: 10rem;
-    cursor: pointer;
-    font-weight: 500;
-    position: relative;
-    color: white;
-    background-image: linear-gradient(to top, #CCA471 50%, #343435 50%);
-    background-size: 100% 200%;
-    padding: 5px 10px;
-    transition: background-position 0.3s ease-in-out;
-  }
-  
-  .input-button-container button:hover {
-    background-position: 0 100%;
-    color: white;
-  }
-  
-  .subscription-policy {
-    color: gray;
-    margin-top: 1rem;
-    font-size: 14px;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-  
-  .subscription-text li {
-    border: none;
-    cursor: pointer;
-    color: white;
-    font-weight: 500;
-    margin-left: 1rem;
     margin-top: 2rem;
-    font-family: 'Source Sans Pro', sans-serif;
-    position: relative;
-    background-image: linear-gradient(to top, #CCA471 50%, #343435 50%);
-    background-size: 100% 200%;
-    padding: 5px 10px;
-    transition: background-position 0.3s ease-in-out;
   }
-  
-  .subscription-text li:hover {
-    background-position: 0 100%;
-    color: white;
+
+  .input-button-container input {
+    width: 100%;
   }
-  
-  /* Responsive styles for tablet */
-  @media screen and (max-width: 768px) {
-    .subscription-part {
-      margin-top: 3rem;
-    }
-  
-    .subscription-header {
-      font-size: 30px;
-    }
-  
-    .input-button-container {
-      flex-direction: column;
-      align-items: center;
-      margin-top: 2rem;
-    }
-  
-    .input-button-container input {
-      width: 100%;
-    }
-  
-    .input-button-container button {
-      width: 100%;
-    }
-  
-    .subscription-policy {
-      font-size: 12px;
-      margin-top: 1rem;
-    }
-  
-    .subscription-text li {
-      margin-left: 0;
-      margin-top: 1rem;
-    }
+
+  .input-button-container button {
+    width: 100%;
   }
-  
-  /* Responsive styles for mobile */
-  @media screen and (max-width: 480px) {
-    .subscription-header {
-      font-size: 24px;
-    }
-  
-    .input-button-container {
-      margin-top: 1rem;
-    }
-    .input-button-container input{
-      width: 17rem;
-      }
-  
-    .subscription-policy {
-      font-size: 10px;
-    }
+
+  .subscription-policy {
+    font-size: 12px;
+    margin-top: 1rem;
   }
-  
+
+  .subscription-text li {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+
+/* Responsive styles for mobile */
+@media screen and (max-width: 480px) {
+  .subscription-header {
+    font-size: 24px;
+  }
+
+  .input-button-container {
+    margin-top: 1rem;
+  }
+
+  .input-button-container input {
+    width: 17rem;
+  }
+
+  .subscription-policy {
+    font-size: 10px;
+  }
+}

@@ -1,14 +1,14 @@
-/* Grid container styles */
+
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Adjust the minmax value to your desired box width */
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
   margin-top: 3rem;
-  overflow: hidden; /* Prevent horizontal scrolling */
+  overflow: hidden;
 }
 
-/* Remove width and height from images and use object-fit */
+
 img {
-  object-fit: cover; /* Preserve image aspect ratio and cover the container */
+  object-fit: cover; 
 }
 
 .catalog-image1,
@@ -17,7 +17,7 @@ img {
 .catalog-image4,
 .catalog-image5,
 .catalog-image6 {
-  position: relative; /* Create a positioning context for text overlay */
+  position: relative; 
   height: 200px;
 }
 
@@ -28,7 +28,7 @@ img {
 .catalog-image5:hover,
 .catalog-image6:hover {
   transition: all 1s ease-in-out;
-  transform: scale(1.04); /* Use transform instead of scale property */
+  transform: scale(1.04); 
 }
 
 .text-overlay {
@@ -41,11 +41,11 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(0, 0, 0, 0.6); /* Semi-transparent background for text */
+  background: rgba(0, 0, 0, 0.6); 
   color: white;
   text-align: center;
-  opacity: 0; /* Initially hidden */
-  transition: opacity 0.3s ease-in-out; /* Smooth opacity transition */
+  opacity: 0; 
+  transition: opacity 0.3s ease-in-out; 
 }
 
 .catalog-image1:hover .text-overlay,
@@ -54,7 +54,7 @@ img {
 .catalog-image4:hover .text-overlay,
 .catalog-image5:hover .text-overlay,
 .catalog-image6:hover .text-overlay {
-  opacity: 1; /* Show text overlay on hover */
+  opacity: 1; 
 }
 
 .catalog-info {
