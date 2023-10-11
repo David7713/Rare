@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Rare/static/css/main.2e8ad037.css",
-    "main.js": "/Rare/static/js/main.2bb531dd.js",
+    "main.css": "/Rare/static/css/main.6ed4b548.css",
+    "main.js": "/Rare/static/js/main.a57e1b06.js",
     "static/media/about.png": "/Rare/static/media/about.40e500f16159f7d8956d.png",
     "static/media/cart.png": "/Rare/static/media/cart.40e500f16159f7d8956d.png",
     "static/media/contact.png": "/Rare/static/media/contact.40e500f16159f7d8956d.png",
     "static/media/registration.png": "/Rare/static/media/registration.40e500f16159f7d8956d.png",
     "static/media/shop.png": "/Rare/static/media/shop.40e500f16159f7d8956d.png",
     "static/media/slider2.png": "/Rare/static/media/slider2.40e500f16159f7d8956d.png",
+    "static/media/watchDetail.png": "/Rare/static/media/watchDetail.40e500f16159f7d8956d.png",
     "static/media/Watch2.png": "/Rare/static/media/Watch2.05f46436f8224d036720.png",
     "static/media/Watch12.png": "/Rare/static/media/Watch12.370be9a6c2735e81fd32.png",
     "static/media/Watch5.png": "/Rare/static/media/Watch5.0530e0a5f22628ca1aa3.png",
@@ -38,11 +39,11 @@
     "static/media/hand-made.jpg": "/Rare/static/media/hand-made.09ecd5fff9d59f404d6b.jpg",
     "static/media/Watch10.png": "/Rare/static/media/Watch10.0df1f7036845662fe3fd.png",
     "index.html": "/Rare/index.html",
-    "main.2e8ad037.css.map": "/Rare/static/css/main.2e8ad037.css.map",
-    "main.2bb531dd.js.map": "/Rare/static/js/main.2bb531dd.js.map"
+    "main.6ed4b548.css.map": "/Rare/static/css/main.6ed4b548.css.map",
+    "main.a57e1b06.js.map": "/Rare/static/js/main.a57e1b06.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e8ad037.css",
-    "static/js/main.2bb531dd.js"
+    "static/css/main.6ed4b548.css",
+    "static/js/main.a57e1b06.js"
   ]
 }
