@@ -11,6 +11,9 @@
     letter-spacing: 0.21em;
     cursor: pointer;
     
+    position: fixed;
+    z-index: 10;
+    
    
 }
 

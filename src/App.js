@@ -124,8 +124,17 @@ setLoading(false)
       handleRemoveProduct={handleRemoveProduct}
       handleCartClear={handleCartClear}/>
       } />
-  <Route path='/watch/Mechanical/:id' element={<WatchDetail watches={MechanicalData} />} />
-  <Route path='/watch/Automat/:id' element={<WatchDetail watches={AutomatData} />} />
+  <Route path='/watch/Mechanical/:id' element={<WatchDetail watches={MechanicalData}
+    cartItems={cartItems} 
+    handleAddProduct={handleAddProduct}
+    handleRemoveProduct={handleRemoveProduct}
+    handleCartClear={handleCartClear} />} 
+  />
+  <Route path='/watch/Automat/:id' element={<WatchDetail watches={AutomatData}
+    cartItems={cartItems} 
+    handleAddProduct={handleAddProduct}
+    handleRemoveProduct={handleRemoveProduct}
+    handleCartClear={handleCartClear} />} />
 
       </Routes>
     </Router>
