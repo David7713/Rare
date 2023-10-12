@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Rare/static/css/main.3db13f0d.css",
-    "main.js": "/Rare/static/js/main.0ffb5f40.js",
+    "main.css": "/Rare/static/css/main.0f8828ad.css",
+    "main.js": "/Rare/static/js/main.2350f46a.js",
     "static/media/about.png": "/Rare/static/media/about.40e500f16159f7d8956d.png",
     "static/media/cart.png": "/Rare/static/media/cart.40e500f16159f7d8956d.png",
     "static/media/contact.png": "/Rare/static/media/contact.40e500f16159f7d8956d.png",
@@ -39,11 +39,11 @@
     "static/media/hand-made.jpg": "/Rare/static/media/hand-made.09ecd5fff9d59f404d6b.jpg",
     "static/media/Watch10.png": "/Rare/static/media/Watch10.0df1f7036845662fe3fd.png",
     "index.html": "/Rare/index.html",
-    "main.3db13f0d.css.map": "/Rare/static/css/main.3db13f0d.css.map",
-    "main.0ffb5f40.js.map": "/Rare/static/js/main.0ffb5f40.js.map"
+    "main.0f8828ad.css.map": "/Rare/static/css/main.0f8828ad.css.map",
+    "main.2350f46a.js.map": "/Rare/static/js/main.2350f46a.js.map"
   },
   "entrypoints": [
-    "static/css/main.3db13f0d.css",
-    "static/js/main.0ffb5f40.js"
+    "static/css/main.0f8828ad.css",
+    "static/js/main.2350f46a.js"
   ]
 }
