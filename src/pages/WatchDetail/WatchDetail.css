@@ -14,7 +14,9 @@
     color: #030d1d;
 }
 
-
+.watch-detail-main-text p{
+    margin-top: 4rem;
+}
 .watch-detail-main-image {
     max-width: 100%;
     max-height: 300px;

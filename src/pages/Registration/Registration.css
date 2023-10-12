@@ -12,7 +12,9 @@
     text-align: center;
     color: #030d1d;
 }
-
+.registration-text p{
+    margin-top: 4rem;
+}
 
 .registration-image {
     max-width: 100%;

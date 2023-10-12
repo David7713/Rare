@@ -12,7 +12,9 @@
     text-align: center;
     color: #030d1d;
 }
-
+.about-text p{
+    margin-top: 4rem;
+}
 
 .about-image {
     max-width: 100%;
