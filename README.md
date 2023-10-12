@@ -1,70 +1,82 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Rare E-Commerce Website
 
-## Available Scripts
+Welcome to Rare Watches, where sophistication meets style. Our online store is dedicated to providing a curated selection of high-quality men's watches, designed to elevate your look and enhance your everyday style. Built with React, our website offers a seamless shopping experience, ensuring you find the perfect timepiece effortlessly.
+This Basic E-Commerce Website built using
 
-In the project directory, you can run:
 
-### `npm start`
+## Front End
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+![HTML](https://img.shields.io/badge/-HTML-orange?logo=html5&logoColor=white)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![CSS](https://img.shields.io/badge/-CSS-blue?logo=css3&logoColor=white)
 
-### `npm run build`
+![React](https://img.shields.io/badge/-React-blue?logo=react&logoColor=white)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Back End
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Firebase](https://img.shields.io/badge/-Firebase-orange?logo=firebase&logoColor=white)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+Install my-project with npm
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  git clone https://github.com/David7713/Rare.git
+  cd Rare
+  npm install
+  npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+    
+## Colors Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Color         | Hex                                                                |
+| ------------- | ------------------------------------------------------------------ |
+| Example Color | ![#0a192f](https://via.placeholder.com/10/000000?text=+) `#000000` |
+| Example Color | ![#808080](https://via.placeholder.com/10/808080?text=+) `#808080` |
+| Example Color | ![#00b48a](https://via.placeholder.com/10/CCA471?text=+) `#CCA471` |
+| Example Color | ![#FF0000](https://via.placeholder.com/10/FF0000?text=+) `#FF0000` |
+| Example Color | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) `#FFFFFF` |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Screenshots
+   ## Home
+![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Home.png?raw=true)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ## Shop
+![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Shop.png?raw=true)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ## Detail
+![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Detail.png?raw=true)
 
-### Code Splitting
+   ## Login
+![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Login.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ## Cart
+![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Cart.png?raw=true)
 
-### Analyzing the Bundle Size
+   ## About
+![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/About.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ## Contact
+![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Contact1.png?raw=true)
 
-### Making a Progressive Web App
+![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Contact2.png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+   ## Footer
+![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Footer.png?raw=true)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Feedback and Questions
+Thank you for exploring Rare Watches! We hope you enjoy your experience. If you have any questions, feedback, or suggestions, please feel free to reach out to us at:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📧 Email: davo00771339@gmail.com
+
+We appreciate your interest and look forward to hearing from you! Have a great day!
+
