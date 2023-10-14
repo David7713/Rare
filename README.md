@@ -4,6 +4,10 @@
 Welcome to Rare Watches, where sophistication meets style. Our online store is dedicated to providing a curated selection of high-quality men's watches, designed to elevate your look and enhance your everyday style. Built with React, our website offers a seamless shopping experience, ensuring you find the perfect timepiece effortlessly.
 This Basic E-Commerce Website built using
 
+  ## Rare Watch Store
+![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Main.png?raw=true)
+
+
 
 ## Front End
 
