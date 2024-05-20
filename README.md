@@ -5,7 +5,7 @@ Welcome to Rare Watches, where sophistication meets style. Our online store is d
 This Basic E-Commerce Website built using
 
   ## Rare Watch Store
-![App Screenshot](https://github.com/David7713/Rare/blob/main/Screenshots/Main.png?raw=true)
+![App Screenshot](https://github.com/David7713/Game/blob/main/Game-Mockup.png?raw=true)
 
 
 
@@ -17,7 +17,7 @@ This Basic E-Commerce Website built using
 
 ![CSS](https://img.shields.io/badge/-CSS-blue?logo=css3&logoColor=white)
 
-![React](https://img.shields.io/badge/-React-blue?logo=react&logoColor=white)
+![Javascript](https://img.shields.io/badge/-Javascript-yellow?logo=react&logoColor=white)
 
 ## Back End
 
