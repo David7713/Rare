@@ -17,7 +17,7 @@ This Basic E-Commerce Website built using
 
 ![CSS](https://img.shields.io/badge/-CSS-blue?logo=css3&logoColor=white)
 
-![Javascript](https://img.shields.io/badge/-Javascript-yellow?logo=react&logoColor=white)
+![Javascript](https://img.shields.io/badge/-Javascript-yellow?logo=javascript&logoColor=white)
 
 ## Back End
 
